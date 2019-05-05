@@ -1,0 +1,8 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+
+.gallery{ margin: 30px; }
+
+.gallery img{ transition: 1s; padding: 15px; width: 600px; }
+
+.gallery img:hover{ filter:opacity(0.6); transform: scale(1.1); }
