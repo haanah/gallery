@@ -1,8 +1,11 @@
 @charset "utf-8";
 *{margin: 0; padding: 0;}
 
-.gallery{ margin: 30px; }
-
 .gallery img{ transition: 1s; padding: 15px; width: 600px; }
 
 .gallery img:hover{ filter:opacity(0.6); transform: scale(1.1); }
+
+.jumbotron{padding:0;}
+.btn_top{position:fixed;right:0;top:30px;width:40px;height:40px;border-radius:50%;background:#222;line-height: 40px;}
+.go_top{display: block;font-size: 14px;font-weight: bold;color: #ff0;text-align: center;}
+.go_top:hover{text-decoration: none;color:#fff;}
